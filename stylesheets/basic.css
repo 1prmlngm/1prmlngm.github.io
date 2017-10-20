@@ -1,0 +1,120 @@
+﻿body {
+    margin-left: 11px;
+}
+
+h1 {
+    font-family: Ubuntu-Regular, sans-serif;
+}
+
+h3 {
+    font-family: Muli-Regular, sans-serif;
+}
+
+p {
+    font-family: Roboto-Regular, sans-serif;
+}
+
+#logo {
+    width: 100%;
+}
+
+/*navigation bar*/
+#menu li {
+    display: inline;
+    font-family: Cabin-Regular, sans-serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    background-color: #0094ff;
+    border-radius: 5px;
+}
+
+#menu li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #00ffff;
+}
+
+a.active {
+    background-color: #00ff90;
+}
+/*end navigation bar*/
+
+footer {
+    font-family: monospace;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #130926;
+}
+
+/*fonts import*/
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(../fonts/Ubuntu-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Muli-Regular';
+    src: url(../fonts/Muli-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Cabin-Regular';
+    src: url(../fonts/Cabin-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'PontanoSans-Regular';
+    src: url(../fonts/PontanoSans-Regular.ttf)
+}
+
+/*pictures*/
+#karambit {
+    width: 66%;
+    height: auto;
+}
+
+#csmodus {
+    font-family: PontanoSans-Regular, sans-serif;
+}
+
+#cslogo {
+    float: right;
+    width: 15%;
+    height: auto;
+}
+
+#gtalogo {
+    float: right;
+}
+
+#gtatitel {
+    width: 37%;
+    height: auto;
+}
+
+#gamerpic {
+    float: right;
+    width: 20%;
+    height: auto;
+}
